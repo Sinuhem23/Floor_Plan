@@ -5,3 +5,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.kitchen > h3 {
+  margin-top: 10rem;
+}

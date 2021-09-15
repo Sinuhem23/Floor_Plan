@@ -1,6 +1,6 @@
 .bedroom {
   background-color: rgb(42, 182, 107);
 }
-.bedroom h3 {
-  text-align: center;
+.bedroom > h3 {
+  margin-top: 9rem;
 }

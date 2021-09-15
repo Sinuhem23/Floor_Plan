@@ -1,3 +1,6 @@
 .livingroom {
   background-color: rgb(73, 191, 246);
 }
+.livingroom > h3 {
+  margin-top: 14rem;
+}

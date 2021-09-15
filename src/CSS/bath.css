@@ -1,3 +1,6 @@
 .bath {
   background-color: rgb(0, 132, 255);
 }
+.bath > h3 {
+  margin-top: 7.5rem;
+}
