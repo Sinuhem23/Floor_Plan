@@ -4,7 +4,7 @@ import '../CSS/oven.css'
 // Renders the text "Oven"
 export default function Oven() {
   return (
-    <div>
+    <div className='oven'>
       <h3>Oven</h3>
     </div>
   )

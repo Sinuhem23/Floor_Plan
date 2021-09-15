@@ -1,7 +1,26 @@
-div {
+/* div {
   border: 1px solid grey;
 
   margin: 5px;
 
   padding: 5px;
+} */
+.main_FP_container {
+  display: grid;
+  height: 50rem;
+}
+.firstRow {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.secondRow {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.full_1bed {
+  display: grid;
+
+  grid-template-rows: 1fr 1fr;
 }

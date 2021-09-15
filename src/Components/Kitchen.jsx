@@ -9,10 +9,13 @@ import '../CSS/kitchen.css'
 // - A <Sink> component
 export default function Kitchen() {
   return (
-    <div>
-      <h3>Kitchen</h3>
+    <div className='kitchen'>
+      <div className='ovenSink'>
       <Oven />
       <Sink />
+      </div>
+      <h3>Kitchen</h3>
+
     </div>
   )
 }

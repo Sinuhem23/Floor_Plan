@@ -1,0 +1,7 @@
+.kitchen {
+  background-color: rgb(255, 251, 0);
+}
+.ovenSink {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
