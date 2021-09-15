@@ -1,6 +1,7 @@
 import React from 'react'
 import Oven from '../Components/Oven';
 import Sink from '../Components/Sink';
+import '../CSS/kitchen.css'
 
 // Renders the text "Kitchen" and the following components:
 

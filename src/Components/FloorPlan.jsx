@@ -3,7 +3,7 @@ import Kitchen from '../Components/Kitchen';
 import LivingRoom from '../Components/LivingRoom';
 import Bedroom from '../Components/Bedroom';
 import Bath from '../Components/Bath';
-
+import '../CSS/floorplan.css'
 
 // - A <Kitchen> component
 // - A <LivingRoom> component
@@ -16,11 +16,11 @@ export default function FloorPlan() {
     <div>
       <Kitchen />
       <LivingRoom />
-      <Bedroom />
-      <Bedroom />
-      <Bedroom />
-      <Bath />
-      <Bath />
+      <Bedroom bedNum = {1}/>
+      <Bedroom bedNum = {2}/>
+      <Bedroom bedNum = {3}/>
+      <Bath size={"Full"}/>
+      <Bath size={"Half"}/>
     </div>
   )
 }

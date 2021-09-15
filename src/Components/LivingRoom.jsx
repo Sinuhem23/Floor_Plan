@@ -1,4 +1,5 @@
 import React from 'react'
+import '../CSS/livingroom.css'
 
 // Renders the text "Living Room"
 export default function LivingRoom() {
